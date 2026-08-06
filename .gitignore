@@ -1,0 +1,29 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Large or reproducible outputs
+/plot/
+/reports/
+replot.pptx
+
+# Local temporary files
+*.tmp
+*.log
+terra_tmp*/
+
+# Large geospatial/data artifacts should be shared separately or via Git LFS if needed.
+/data/
+*.gpkg
+*.tif
+*.tiff
+*.grd
+*.gri
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
